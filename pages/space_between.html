@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            background-color: antiquewhite;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+        }
+        .child{
+            background-color: whitesmoke;
+            height:250px ;
+            width: 200px;
+            border: 3px solid black;
+            border-radius: 20px;
+            box-shadow: 10px 10px 40px 2px gray;
+            margin: 10px;
+        }
+        .img{
+            height:200px;
+            border-radius: 17px;
+        
+        }
+        .b{
+            padding-left: 45px;
+            font-size: 30px;
+        }
+        .b:hover{
+            color: red;
+            text-shadow: 2px 2px black;
+        }
+     </style>
+</head>
+<body>
+    <h1 style="text-align: center ;color: deeppink;">justify-content :-space_between </h1>
+    <div class="parent">
+        <div class="child">
+        <img  class="img"   src="./../imges/Alomonds.jpg" alt="">
+        <b class="b"> Almonds</b>
+        </div>
+    
+        <div class="child">
+        <img  class="img"   src="./../imges/cashew.avif" alt="">
+        <b class="b"> cashew</b>
+        </div>
+
+        <div class="child">
+        <img  class="img"   src="./../imges/dates_1.avif" alt="">
+        <b class="b">Dates</b>
+        </div>
+
+        <div class="child">
+        <img  class="img" style="width: 200px;" src="./../imges/raisin.jpg" alt="">
+        <b class="b"> Raisin</b>
+        </div>
+    </div>
+    <br> <br>
+    <a href="./../index.html">Back to home page</a>
+</body>
+</html>
